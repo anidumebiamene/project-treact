@@ -44,10 +44,10 @@ li {
 
 .nav__links {
  text-decoration: none;
- padding-left: 36px;
- padding-top: 4px;
- font-size: 16px;
+ display: flex;
+ align-items: center;
  gap: 30px;
+ padding: 0;
 }
 
 .nav__container {
@@ -56,6 +56,13 @@ li {
   margin: 0 auto;
   max-width: 1200px;
   justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .logo {
@@ -63,10 +70,9 @@ li {
 }
 
 .logo__treact {
-  padding-right: 600px;
-  padding-top: 4px;
-  font-weight: bold;
+ font-weight: bold;
   font-size: 26px;
+  padding: 0;
 }
 
 /* 

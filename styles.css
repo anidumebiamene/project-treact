@@ -11,6 +11,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #f7f4f4;
+}
+
 .row {
   width: 100%;
   max-width: 1200px;
@@ -27,8 +31,8 @@ a {
 
 a:hover {
   text-decoration: underline;
-
 }
+
 
 nav {
  display: flex;
@@ -45,6 +49,24 @@ li {
   list-style-type: none;
   margin-right: 20px;
 }
+
+h1 {
+  font-size: 48px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.purple {
+  color: #6156c5;
+}
+
+/* 
+
+NAVIGATION BAR 
+
+*/
 
 .nav__links {
  text-decoration: none;
@@ -63,6 +85,10 @@ li {
 .nav__link:hover {
   color: #9288ec;
   text-underline-offset: 6px;
+}
+
+.nav__link--login {
+  padding-left: 60px;
 }
 
 .nav__container {
@@ -103,6 +129,7 @@ li {
 .btn:hover {
   background-color: #36e709;
   transition: all ease-in-out 300ms;
+  cursor: pointer;
 }
 
 .logo__treact {
@@ -116,3 +143,32 @@ li {
 HEADER
 
 */
+
+.header__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 136px;
+  justify-content: center;
+  display: flex;
+  gap: 48px;
+}
+
+.header__container--left {
+  width: 40%;
+}
+
+.header__description--para {
+  padding-top: 32px;
+  font-size: 20px;
+  color: #242424;
+}
+
+.header__container--right {
+  width: 60%;
+}
+
+.header__container--img {
+  width: 100%;
+  height: 100%;
+}

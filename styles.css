@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+.no__cursor {
+  cursor: not-allowed;
+}
+
 a:hover {
   text-decoration: underline;
 
@@ -48,9 +52,21 @@ li {
  align-items: center;
  gap: 30px;
  padding: 0;
+ font-size: 14px;
+ text-align: center;
+}
+
+.nav__link {
+  color: #242424;
+}
+
+.nav__link:hover {
+  color: #9288ec;
+  text-underline-offset: 6px;
 }
 
 .nav__container {
+  padding-top: 16px;
   display: flex;
   width: 100%;
   margin: 0 auto;
@@ -63,10 +79,30 @@ li {
   display: flex;
   align-items: center;
   gap: 12px;
+  color: #170e68;
+}
+
+.nav__logo:hover {
+  color: #9288ec;
 }
 
 .logo {
   width: 44px;
+  margin-right: px;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+  background-color: #4032be;
+  color: white;
+  border-radius: 6px;
+  outline: #4032be;
+}
+
+.btn:hover {
+  background-color: #36e709;
+  transition: all ease-in-out 300ms;
 }
 
 .logo__treact {

@@ -118,11 +118,11 @@ NAVIGATION BAR
 }
 
 .btn {
-  height: 40px;
+  height: 36px;
   width: 120px;
   background-color: #4032be;
   color: white;
-  border-radius: 6px;
+  border-radius: 999px;
   outline: #4032be;
 }
 
@@ -162,6 +162,36 @@ HEADER
   padding-top: 32px;
   font-size: 20px;
   color: #242424;
+}
+
+.email__address--bar-wrapper {
+  padding-top: 32px;
+}
+
+.email__address--bar {
+  position: relative;
+  width: 100%;
+}
+
+.email__address--bar input {
+  width: 100%;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #d9d9d9;
+  padding-left: 12px;
+  outline-style: none;
+}
+
+.email__address--btn {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+.header__logo--strip {
+  width: 100%;
+  height: 100%;
+  padding-top: 32px;  
 }
 
 .header__container--right {

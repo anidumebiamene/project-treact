@@ -209,3 +209,54 @@ HEADER
   width: 100%;
   height: 100%;
 }
+
+/* 
+
+FEATURES
+
+*/
+
+.features__container {
+  width: padding 80px 0;
+}
+
+.features__title,
+.features__heading,
+.features__heading--para {
+  text-align: center;
+}
+
+.features__title {
+ padding-top: 160px;
+ color: #7a6ee4;
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+
+.features__heading {
+  text-align: center;
+  padding-top: 20px;
+  font-weight:900;
+  color: #020b5c;
+}
+
+.features__heading--para {
+  padding-top: 20px;
+  color: #535455ad;
+  font-size: 16px;
+}
+
+.features__services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__service {
+  display: flex;
+  width: calc(100%/3);
+}
+
+.features__service--desc {
+  display: flex;
+  flex-direction: column;
+}

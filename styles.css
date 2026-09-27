@@ -399,3 +399,20 @@ flex-direction: column;
  font-weight: bold;
  color: #2424248f;
 }
+
+/*
+
+VALUES
+
+*/
+
+.values__services {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.values__service {
+  display: flex;
+  width: calc(50%/2);
+  flex-wrap: wrap;
+}

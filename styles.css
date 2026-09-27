@@ -330,12 +330,13 @@ QUALITY WORK
 
 .quality__work--right {
   width: 50%;
- object-fit: fill;
+ display: flex;
+ justify-content: flex-end;
  padding-top: 160px;
 }
 
 .quality__work--right img {
-  width: 100%;
+  width: 90%;
 }
 
 /* 
@@ -410,6 +411,7 @@ VALUES
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
+ padding-top: 40px;
 }
 
 .values__service {
@@ -418,11 +420,17 @@ VALUES
   flex-wrap: wrap;
 }
 
+.values__button {
+  padding-top: 40px;
+}
+
 .values__work--right {
  width: 50%;
  display: flex;
+ justify-content: flex-end;
+ padding-top: 160px;
 }
 
 .values__work--right img {
-  width: 100%;
+  width: 90%;
 }

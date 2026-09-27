@@ -409,10 +409,20 @@ VALUES
 .values__services {
  display: flex;
  flex-wrap: wrap;
+ justify-content: space-between;
 }
 
 .values__service {
   display: flex;
   width: 50%;
   flex-wrap: wrap;
+}
+
+.values__work--right {
+ width: 50%;
+ display: flex;
+}
+
+.values__work--right img {
+  width: 100%;
 }

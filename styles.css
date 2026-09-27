@@ -413,6 +413,6 @@ VALUES
 
 .values__service {
   display: flex;
-  width: calc(50%/2);
+  width: 50%;
   flex-wrap: wrap;
 }

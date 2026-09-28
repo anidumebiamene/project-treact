@@ -490,3 +490,40 @@ VALUES
   width: 90%;
   margin-left: auto;
 }
+
+/*
+
+PRICING 
+
+*/
+
+.pricing__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing__title, 
+.pricing__heading, .pricing__heading--para {
+  text-align: center;
+}
+
+.pricing__title {
+ padding-top: 300px;
+ color: #7a6ee4;
+ font-weight: bold;
+ letter-spacing: 2px;
+}
+
+.pricing__heading {
+  padding-top: 20px;
+  font-weight:900;
+  color: #020b5c;
+}
+
+.pricing__heading--para {
+  padding-top: 20px;
+  color: #535455ad;
+  font-size: 12px;
+}

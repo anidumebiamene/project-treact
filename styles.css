@@ -417,7 +417,7 @@ VALUES
 }
 
 .values__title {
- padding-top: 132px;
+ padding-top: 332px;
  color: #7a6ee4;
  font-weight: bold;
  letter-spacing: 2px;
@@ -449,11 +449,20 @@ VALUES
   flex-wrap: wrap;
 }
 
-.values__icon {
+.values__icon--1 {
   border: 1px solid #00000017;
   border-radius: 50%;
-  padding: 20px;
-  color: #7a6ee4;
+  padding: 8px;
+  color: #242424;
+  background-color: rgb(236, 174, 174);
+}
+
+.values__icon--2 {
+  border: 1px solid #00000017;
+  border-radius: 50%;
+  padding: 8px;
+  color: #242424;
+  background-color: rgb(179, 236, 174);
 }
 
 .values__secure {
@@ -477,6 +486,7 @@ VALUES
 }
 
 .values__right img {
+  padding-top: 200px;
   width: 90%;
   margin-left: auto;
 }

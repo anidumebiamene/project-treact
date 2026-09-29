@@ -526,11 +526,18 @@ PRICING
   color: #535455ad;
   font-size: 18px;
   max-width: 600px;
+  padding-bottom: 40px;
 }
 
 .pricing__plans {
   display: flex;
   flex-wrap: wrap;
+  border: 1px solid #24242449;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
 }
 
 .pricing__plan {
@@ -553,5 +560,54 @@ PRICING
   font-size: 48px;
   text-align: center;
   padding-top: 12px;
+}
+
+.pricing__plan--monthly {
+ padding-top: 12px;
+ color: #24242480;
+ font-weight: bold;
+ letter-spacing: 2px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.pricing__plan--size {
+  padding-top: 60px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.pricing__plan--features {
+  padding-top: 12px;
+  color: #2424247e;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pricing__btn--container {
+  padding-top: 60px;
   
+}
+
+.pricing__btn {
+  height: 52px;
+  width: 280px;
+  background: linear-gradient(to right, #08d8ab, #04745b);
+  color: white;
+  font-weight: bold;
+  border-radius: 999px;
+  outline: #4032be;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transform: translateY(0) translateX(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricing__btn:hover {
+  transform: translateY(-4px) translateX(2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }

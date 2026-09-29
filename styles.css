@@ -499,9 +499,8 @@ PRICING
 
 .pricing__row {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .pricing__title, 
@@ -525,5 +524,34 @@ PRICING
 .pricing__heading--para {
   padding-top: 20px;
   color: #535455ad;
-  font-size: 12px;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.pricing__plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing__plan {
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  padding: ;
+}
+
+.pricing__plan--type {
+ padding-top: 100px;
+ color: #242424;
+ font-weight: bold;
+ letter-spacing: 1px;
+ font-size: 24px;
+ text-align: center;
+}
+
+.pricing__plan--amt {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 12px;
+  
 }

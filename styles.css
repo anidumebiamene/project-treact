@@ -532,19 +532,22 @@ PRICING
 .pricing__plans {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid #24242449;
-  border-radius: 20px;
+  width: 100%;
+  max-width: 1100px;
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding-right: 40px;
 }
 
 .pricing__plan {
   width: calc(100%/3);
   display: flex;
   flex-direction: column;
-  padding: ;
+  border: 1px solid #24242449;
+  align-items: center;
+  gap: 32px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .pricing__plan--type {
@@ -577,6 +580,9 @@ PRICING
   font-weight: bolder;
   font-size: 20px;
   letter-spacing: 1px;
+  width: 100%;
+  border-top: 1px solid #24242449;
+  padding-top: 32px;
 }
 
 .pricing__plan--features {
@@ -588,7 +594,11 @@ PRICING
 
 .pricing__btn--container {
   padding-top: 60px;
-  
+   border-top: 1px solid #24242449;
+  margin-top: 32px;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .pricing__btn {

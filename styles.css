@@ -531,14 +531,14 @@ PRICING
 
 .pricing__plans {
   display: flex;
-  gap: 200px;
   flex-wrap: wrap;
-  flex-direction: column
+  flex-direction: row;
   width: 100%;
   max-width: 1100px;
   text-align: center;
-  justify-content: space-between
+  justify-content: space-around;
   align-items: center;
+  gap: 40px;
 }
 
 .pricing__plan {
@@ -547,13 +547,22 @@ PRICING
   flex-direction: column;
   border: 1px solid #24242449;
   align-items: center;
-  gap: 32px;
-  border-radius: 20px;
+  gap: 8px;
+  border-radius: 8px;
   overflow: hidden;
+  height: 600px;
+  flex: 1;
+}
+
+.pricing__gradient--border {
+ background-color: linear-gradient(to right, #08d8ab, #04745b);
+ border: 6px solid transparent;
+ border-radius: 8px;
+ width: 400px;
 }
 
 .pricing__plan--type {
- padding-top: 100px;
+ padding-top: 40px;
  color: #242424;
  font-weight: bold;
  letter-spacing: 1px;

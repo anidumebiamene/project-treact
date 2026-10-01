@@ -531,11 +531,13 @@ PRICING
 
 .pricing__plans {
   display: flex;
+  gap: 200px;
   flex-wrap: wrap;
+  flex-direction: column
   width: 100%;
   max-width: 1100px;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-between
   align-items: center;
 }
 

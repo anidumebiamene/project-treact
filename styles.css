@@ -555,10 +555,10 @@ PRICING
 }
 
 .pricing__gradient--border {
- background-color: linear-gradient(to right, #08d8ab, #04745b);
- border: 6px solid transparent;
- border-radius: 8px;
- width: 400px;
+ background: linear-gradient(to right, #08d8ab, #04745b);
+ width: 100%;
+ height: 8px;
+ flex-shrink: 0;
 }
 
 .pricing__plan--type {

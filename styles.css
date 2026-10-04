@@ -554,11 +554,23 @@ PRICING
   flex: 1;
 }
 
-.pricing__gradient--border {
- background: linear-gradient(to right, #08d8ab, #04745b);
+.pricing__plan--2 {
+  background: linear-gradient(to right, #322e97, #6e7ae9);
+  color: #ffffff;
+}
+
+.pricing__gradient--border, .pricing__border--two {
  width: 100%;
  height: 8px;
  flex-shrink: 0;
+}
+
+.pricing__gradient--border {
+ background: linear-gradient(to right, #08d8ab, #04745b); 
+} 
+
+.pricing__border--two {
+  background: linear-gradient(to right, #d83208, #f06b6b); 
 }
 
 .pricing__plan--type {
@@ -570,6 +582,15 @@ PRICING
  text-align: center;
 }
 
+.plan__type--two {
+ padding-top: 56px;
+ color: #ffffff;
+ font-weight: bold;
+ letter-spacing: 1px;
+ font-size: 24px;
+ text-align: center; 
+}
+
 .pricing__plan--amt {
   font-size: 48px;
   text-align: center;
@@ -579,6 +600,15 @@ PRICING
 .pricing__plan--monthly {
  padding-top: 12px;
  color: #24242480;
+ font-weight: bold;
+ letter-spacing: 2px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.plan__monthly--2 {
+  padding-top: 12px;
+ color: #ffffff;
  font-weight: bold;
  letter-spacing: 2px;
  font-size: 20px;
@@ -603,6 +633,13 @@ PRICING
   text-align: center;
 }
 
+.plan__features--two {
+  padding-top: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
 .pricing__btn--container {
   padding-top: 60px;
    border-top: 1px solid #24242449;
@@ -612,11 +649,9 @@ PRICING
   justify-content: center;
 }
 
-.pricing__btn {
+.pricing__btn, .pricing__btn--two, .pricing__btn--three {
   height: 52px;
   width: 280px;
-  background: linear-gradient(to right, #08d8ab, #04745b);
-  color: white;
   font-weight: bold;
   border-radius: 999px;
   outline: #4032be;
@@ -628,7 +663,21 @@ PRICING
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.pricing__btn:hover {
+.pricing__btn {
+background: linear-gradient(to right, #08d8ab, #04745b);
+ color: white;
+}
+
+.pricing__btn--two {
+  color: #5a4cd8;
+}
+
+.pricing__btn--three {
+ background: linear-gradient(to right, #d83208, #f06b6b); 
+ color: #ffffff;
+}
+
+.pricing__btn:hover, .pricing__btn--two:hover, .pricing__btn--three:hover  {
   transform: translateY(-4px) translateX(2px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }

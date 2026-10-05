@@ -735,24 +735,38 @@ TESTIMONIALS
 .testimonials__topic {
   font-weight: bolder;
   font-size: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   width: 100%;
-  padding-top: 8px;
+  padding-top: 20px;
   color: #242424bb;
 }
 
-.testimonials__topic--desc {
+.testimonials__topic--desc, .testimonials__topic--two  {
   padding-top: 20px;
-  color: #535455;
   font-size: 15px;
   font-weight: 450;
   line-height: 1.7;
 }
 
+.testimonials__topic--container {
+  padding-right: 40px;
+}
+
+.testimonials__topic--desc {
+  color: #535455;
+}
+
+.testimonials__topic--two {
+ color: #535455c4;
+ padding-top: 2px;
+}
+
 .charlotte__hale {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 40px;
+  padding-top: 20px;
+  justify-content: space-between;
 }
 
 .charlotte__hale img {
@@ -761,4 +775,8 @@ TESTIMONIALS
   width: 75px;
   object-fit: cover;
   margin-top: 10px;
+}
+
+.charlotte__hale--icon {
+  padding-top: 44px;
 }

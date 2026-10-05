@@ -799,3 +799,62 @@ TESTIMONIALS
   cursor: pointer;
    background-color: #2424243a;
 }
+
+/*
+
+DEVELOPERS
+
+*/
+
+.developers__container {
+  display: flex;
+  padding-top: 200px;
+}
+
+.developers__row {
+  display: flex;
+  background-color: rgb(100, 21, 255);
+  padding: 80px 0;
+  justify-content: space-around;
+  
+}
+
+.developers__text {
+  color: #ffffff;
+  max-width: 500px;
+}
+
+.developers__statement {
+  font-size: 30px;
+}
+
+.developers__btn--gs, .developers__btn--cu {
+ border-radius: 999px;
+ width: 144px;
+ height: 52px;
+ color: #ffffff;
+ font-weight: bold;
+}
+
+.developers__btn--gs {
+  background-color: #f56565;
+  border: .1px solid #f56565;
+}
+
+.developers__btn--gs:hover {
+  background-color: #c91c1c;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.developers__btn--cu {
+  background-color: rgb(100, 21, 255);
+  border: .1px solid #fcfcfc;
+}
+
+.developers__btn--cu:hover {
+  background-color: #fcfcfc;
+  cursor: pointer;
+  transition: all 500ms ease;
+  color: rgb(100, 21, 255);
+}

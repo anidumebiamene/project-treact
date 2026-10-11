@@ -858,3 +858,52 @@ DEVELOPERS
   transition: all 500ms ease;
   color: rgb(100, 21, 255);
 }
+
+
+/*
+
+FOOTER
+
+*/
+.footer__container {
+display: flex;
+padding-top: 160px;
+}
+
+.footer__row {
+  display: flex;
+  background-color: rgb(100, 21, 255);
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 8px 44px;
+}
+
+.footer__heading {
+  color: #ffffff;
+  padding-bottom: 8px;
+  font-size: 16px;
+  padding-top: 8px;
+  text-align: center;
+  padding-left: ;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/5);
+  align-items: center;
+  text-underline-offset: 6px;
+  color: #ffffff;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -880,26 +880,42 @@ padding-top: 160px;
   flex-wrap: wrap;
   flex-direction: column;
   padding: 8px 44px;
+  width: calc(100%/5);
 }
 
 .footer__heading {
   color: #ffffff;
   padding-bottom: 8px;
   font-size: 16px;
-  padding-top: 8px;
-  text-align: center;
-  padding-left: ;
+  padding-top: 72px;
+  text-align: left;
 }
 
 .footer__link {
   display: flex;
+  position: relative;
   flex-direction: column;
-  width: calc(100%/5);
-  align-items: center;
-  text-underline-offset: 6px;
+  width: fit-content;
+  align-items: left;
+  text-decoration: none;
   color: #ffffff;
   padding-top: 10px;
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.footer__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 500ms ease;
+}
+
+.footer__link:hover::after {
+  width: 100%;
 }
 
 .footer__info {

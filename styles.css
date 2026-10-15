@@ -871,9 +871,9 @@ padding-top: 160px;
 }
 
 .footer__row {
-  display: flex;
-  flex-wrap: wrap
   background-color: rgb(100, 21, 255);
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .footer__links {
@@ -882,6 +882,7 @@ padding-top: 160px;
   flex-direction: column;
   padding: 8px 44px;
   width: calc(100%/5);
+  padding-bottom: 40px;
 }
 
 .footer__heading {
@@ -931,4 +932,11 @@ padding-top: 160px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  border-top: 1px solid #ffffff3a;
+  padding-top: 40px;
+}
+
+.treact__footer--logo {
+  display: flex;
+  flex-direction: row;
 }

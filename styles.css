@@ -872,6 +872,7 @@ padding-top: 160px;
 
 .footer__row {
   display: flex;
+  flex-wrap: wrap
   background-color: rgb(100, 21, 255);
 }
 
@@ -926,6 +927,8 @@ padding-top: 160px;
 
 .treact__footer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }

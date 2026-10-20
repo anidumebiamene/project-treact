@@ -966,9 +966,27 @@ padding-top: 160px;
 
 .footer__icon {
   background-color: #ffffff;
-  border-radius: 999px;
+  border-radius: 50%;
   padding: 10px;
   height: auto;
   width: 10px;
   color: #5667c5;
+}
+
+.footer__icon:hover {
+  cursor: pointer;
+  background-color: #ffffffaf;
+  transition: all 500ms ease;
+}
+
+/* 
+
+SMALLER DEVICES
+
+*/
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }

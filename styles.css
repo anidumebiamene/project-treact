@@ -1007,9 +1007,58 @@ SMALLER DEVICES
   color: #242424;
   text-align: center;
   max-width: 520px;
-  padding-left: px;
+  margin: 0 auto;
 }
 
+.email__address--bar-wrapper {
+  padding-top: 32px;
+  margin: 0 auto;
+  align-items: center;
+}
 
+.email__address--bar {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.email__address--bar input {
+  width: 100%;
+  height: 72px;
+  border-radius: 999px;
+  border: 1px solid #d9d9d9;
+  outline-style: none;
+  align-items: center;
+  max-width: 400px;
+}
+
+.email__address--btn {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+
+.logo__strip--msg {
+  padding-top: 40px;
+  font-weight: bold;
+   color: #2424245b;
+}
+
+.header__logo--strip {
+  width: 100%;
+  max-width: 480px;
+  padding-top: 12px;
+  opacity: 0.5;
+}
+
+.header__container--right {
+  width: 100%;
+}
+
+.header__container--img {
+  width: 100%;
+  height: 100%;
+}
 
 }

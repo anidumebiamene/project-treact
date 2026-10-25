@@ -1163,7 +1163,7 @@ QUALITY WORK
 .quality__work--row {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -1196,10 +1196,10 @@ QUALITY WORK
 .quality__heading--para {
   padding-top: 20px;
   color: #535455ad;
-  font-size: 20px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+  font-size: 14px;
+  text-align: center;
+  max-width: 480px;
+  font-weight: 450;
 }
 
 .quality__btn--container {
@@ -1207,15 +1207,23 @@ QUALITY WORK
 }
 
 .quality__button {
-  padding-top: 12px;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  padding-top: 24px;
   padding-bottom: 24px;
-  font-weight: bold;
+  font-weight: bolder;
+  padding-left: 72px;
+  padding-right: 72px;
+  white-space: nowrap;
 }
 
 .quality__work--right {
-  width: 100%;
+  width: 75%;
  display: flex;
- justify-content: flex-end;
+ align-items: center;
+ margin: 0 auto;
+ justify-content: center;
  padding-top: 160px;
 }
 

@@ -920,6 +920,10 @@ padding-top: 160px;
   width: 100%;
 }
 
+.footer__link:hover {
+  text-decoration: none;
+}
+
 .footer__info {
   display: flex;
   justify-content: space-between;

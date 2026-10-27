@@ -1812,4 +1812,131 @@ DEVELOPERS
   color: rgb(100, 21, 255);
 }
 
+/*
+
+FOOTER
+
+*/
+.footer__container {
+display: flex;
+padding-top: 160px;
+}
+
+.footer__row {
+  background-color: rgb(100, 21, 255);
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 8px 44px;
+  width: calc(100%/3);
+  padding-bottom: 40px;
+}
+
+.footer__heading {
+  color: #ffffff;
+  padding-bottom: 8px;
+  font-size: 20px;
+  padding-top: 72px;
+  text-align: left;
+}
+
+.footer__link {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: fit-content;
+  align-items: left;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 500ms ease;
+}
+
+.footer__link:hover::after {
+  width: 100%;
+}
+
+.footer__link:hover {
+  text-decoration: none;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.treact__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #ffffff3a;
+  padding: 40px 44px;
+  gap: 28px;
+}
+
+.treact__footer--logo {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  max-width: 200px;
+}
+
+.footer__logo--img {
+  width: 32px;
+}
+
+.footer__logo--title {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-top: 4px;
+}
+
+.treact__footer--copyright {
+  color: #ffffffc0;
+  font-size: 17px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 12px;
+}
+
+.footer__icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  height: auto;
+  width: 10px;
+  color: #5667c5;
+}
+
+.footer__icon:hover {
+  cursor: pointer;
+  background-color: #ffffffaf;
+  transition: all 500ms ease;
+}
+
+
 }

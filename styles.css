@@ -2020,4 +2020,47 @@ padding-top: 160px;
   height: 100%;
 }
 
+/*
+
+FEATURES 
+
+*/
+
+.features__services {
+  max-width: 1200px;
+}
+
+.features__service {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.features__title {
+  padding-top: 88px;
+}
+
+.features__heading {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.features__para { 
+   display: flex;
+   font-weight: 500;
+   line-height: 1.7;
+   text-align: center;
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+
 }

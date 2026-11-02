@@ -2027,17 +2027,16 @@ FEATURES
 */
 
 .features__services {
-  max-width: 1200px;
+  width: 100%;
 }
 
 .features__service {
   display: flex;
   gap: 12px;
   align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 1200px;
+  flex-direction: column;
+  max-width: none;
+  width: 100%;
 }
 
 .features__title {
@@ -2053,14 +2052,21 @@ FEATURES
 }
 
 .features__para { 
-   display: flex;
+   padding-left: 0;
    font-weight: 500;
    line-height: 1.7;
    text-align: center;
    width: 100%;
    margin: 0 auto;
+   max-width: 380px;
+}
+
+.features__secure {
+  padding-left: 0;
+}
+
 }
 
 
 
-}
+

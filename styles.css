@@ -2054,15 +2054,46 @@ FEATURES
 .features__para { 
    padding-left: 0;
    font-weight: 500;
-   line-height: 1.7;
+   line-height: 1.9;
    text-align: center;
    width: 100%;
    margin: 0 auto;
-   max-width: 380px;
+   max-width: 340px;
+   font-size: 16px;
+}
+
+.features__heading--para {
+  line-height: 1.7;
+  max-width: 700px;
+  font-size: 14px;
 }
 
 .features__secure {
   padding-left: 0;
+  letter-spacing: 1px;
+}
+/*
+
+QUALITY WORK
+
+*/
+
+.quality__work--right img {
+  width: 400px;
+  height: auto;
+}
+
+.quality__heading {
+ font-size: 32px;
+}
+
+.quality__heading--para {
+  line-height: 1.7;
+}
+
+.steps__left img {
+  height: auto;
+  width: 400px;
 }
 
 }

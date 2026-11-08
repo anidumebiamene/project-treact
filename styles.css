@@ -2091,9 +2091,21 @@ QUALITY WORK
   line-height: 1.7;
 }
 
+.steps__left {
+  width: 400px;
+}
+ 
 .steps__left img {
   height: auto;
-  width: 400px;
+}
+
+.steps__title {
+  padding-top: 8px;
+}
+
+.quality__heading {
+  width: 800px;
+  padding-right: 100px;
 }
 
 }

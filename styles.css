@@ -1947,8 +1947,7 @@ padding-top: 160px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 16px;
   }
 
   .header__container {
@@ -1961,6 +1960,10 @@ padding-top: 160px;
   .header__container--left,
   .header__container--right {
     width: 100%;
+  }
+
+  .header__container--left {
+    padding-top: 80px;
   }
 
   .email__address--bar-wrapper {
@@ -2084,12 +2087,23 @@ QUALITY WORK
 }
 
 .quality__heading {
+ width: 100%;
+ max-width: 100%;
+ margin: 0 auto;
+ text-align: center;
+ white-space: normal;
  font-size: 32px;
 }
 
 .quality__heading--para {
   line-height: 1.7;
 }
+
+/* 
+
+STEPS 
+
+*/
 
 .steps__left {
   width: 400px;
@@ -2103,9 +2117,123 @@ QUALITY WORK
   padding-top: 8px;
 }
 
-.quality__heading {
-  width: 800px;
-  padding-right: 100px;
+.number__desc--para {
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* 
+
+VALUES
+
+*/
+
+.values__right img {
+  width: 400px;
+  height: auto;
+}
+
+.values__heading--para {
+  max-width: 480px;
+  width: 100%;
+}
+
+/* 
+
+PRICING 
+
+*/
+
+.pricing__heading {
+  font-size: 36px;
+}
+
+.pricing__heading--para {
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.pricing__plan {
+  width: 90%;
+  gap: 0px;
+}
+
+.pricing__plan--monthly {
+  padding-bottom: 20px;
+}
+
+.pricing__btn--container {
+  padding-bottom: 40px;
+}
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials__topic--container {
+  padding-right: 0px;
+}
+
+.testimonials__left {
+  width: 400px;
+  height: auto;
+}
+
+.charlotte__hale {
+  flex-direction: column;
+  align-items: center;
+}
+
+.charlotte__hale--profile {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+/* 
+
+DEVELOPERS
+
+*/
+
+.developers__row {
+  padding: 40px 40px;
+}
+
+
+.developers__statement {
+  font-size: 24px;
+}
+
+.developers__buttons {
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 
+
+FOOTER 
+
+*/
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__links {
+width: calc(100%/4);
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.footer__heading {
+  font-size: 16PX;
 }
 
 }

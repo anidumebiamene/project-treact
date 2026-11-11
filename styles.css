@@ -2201,6 +2201,7 @@ DEVELOPERS
 
 .developers__row {
   padding: 40px 40px;
+  margin: 0 20px;
 }
 
 
@@ -2226,11 +2227,12 @@ FOOTER
 }
 
 .footer__links {
-width: calc(100%/4);
-text-align: center;
+display: flex;
+flex-direction: column;
 align-items: center;
-justify-content: center;
+gap: 4px;
 }
+
 
 .footer__heading {
   font-size: 16PX;

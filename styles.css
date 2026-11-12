@@ -2176,6 +2176,12 @@ TESTIMONIALS
   padding-right: 0px;
 }
 
+.testimonials__topic--desc {
+  max-width: 420px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .testimonials__left {
   width: 400px;
   height: auto;
@@ -2224,6 +2230,7 @@ FOOTER
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 .footer__links {
@@ -2233,9 +2240,18 @@ align-items: center;
 gap: 4px;
 }
 
-
 .footer__heading {
   font-size: 16PX;
+}
+
+}
+
+@media (max-width: 375px) {
+
+.row {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 }

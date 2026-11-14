@@ -2258,6 +2258,12 @@ align-items: center;
 gap: 4px;
 }
 
+.footer__link {
+  font-size: 12px;
+  padding-top: 8px;
+  white-space: nowrap;
+}
+
 .footer__heading {
   font-size: 16PX;
 }
@@ -2270,6 +2276,7 @@ gap: 4px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 }

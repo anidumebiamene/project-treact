@@ -1947,7 +1947,7 @@ padding-top: 160px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 0px;
   }
 
   .header__container {
@@ -1964,6 +1964,10 @@ padding-top: 160px;
 
   .header__container--left {
     padding-top: 80px;
+  }
+
+  .header__description--para {
+    max-width: 400px;
   }
 
   .email__address--bar-wrapper {
@@ -1985,16 +1989,15 @@ padding-top: 160px;
  }
 
  .email__address--btn {
-  right: 0px;
   top: 68px;
-  padding: 24px 200px;
+  width: 100%;
+  right: auto;
+  padding: 24px 24px;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-   white-space: nowrap;
-   
  }
 
  .logo__strip--msg {
@@ -2009,7 +2012,7 @@ padding-top: 160px;
 
 .header__logo--strip {
   width: 100%;
-  max-width: 500px;
+  max-width: 4%;
   padding-top: 12px;
   opacity: 0.5;
 }
@@ -2020,7 +2023,10 @@ padding-top: 160px;
 
 .header__container--img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 76px;
 }
 
 /*
@@ -2082,7 +2088,8 @@ QUALITY WORK
 */
 
 .quality__work--right img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
@@ -2106,7 +2113,8 @@ STEPS
 */
 
 .steps__left {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
  
 .steps__left img {
@@ -2129,7 +2137,8 @@ VALUES
 */
 
 .values__right img {
-  width: 400px;
+ width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
@@ -2146,11 +2155,13 @@ PRICING
 
 .pricing__heading {
   font-size: 36px;
+  max-width: 400px;
 }
 
 .pricing__heading--para {
   line-height: 1.7;
   font-size: 14px;
+  max-width: 400px;
 }
 
 .pricing__plan {
@@ -2182,8 +2193,15 @@ TESTIMONIALS
   margin: 0 auto;
 }
 
+.testimonials__heading--para {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .testimonials__left {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
 }
 

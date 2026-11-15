@@ -2348,9 +2348,9 @@ gap: 4px;
   flex: 1;
 }
 
-.footer__links:nth-child(2) {
-  padding-top: 10px;
-
+.footer__links:nth-child(4) .footer__heading,
+.footer__links:nth-child(5) .footer__heading {
+  padding-top: 12px;
 }
 
 }

@@ -50,6 +50,15 @@ li {
   margin-right: 20px;
 }
 
+.btn__menu {
+  background-color: transparent;
+  font-size: 40px;
+  text-align: center;
+  border: none;
+  color: #242424;
+  display: none;
+}
+
 h1 {
   font-size: 48px;
 }
@@ -110,6 +119,30 @@ NAVIGATION BAR
 
 .nav__logo:hover {
   color: #9288ec;
+}
+
+.menu__backdrop {
+  position: absolute;
+  background-color: #242424
+  inset 0;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+} 
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__List {
+padding: 50px 0;
+}
+
+.btn__menu--close {
+  position: absolute;
+  
 }
 
 .logo {
@@ -1947,6 +1980,20 @@ padding-top: 160px;
   cursor: pointer;
   background-color: #ffffffaf;
   transition: all 500ms ease;
+}
+
+/*
+
+JAVASCRIPT TRIPLE BAR
+
+*/
+
+.nav__links {
+  display: none;
+}
+
+.btn__menu {
+  display: none;
 }
 
 

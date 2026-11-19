@@ -163,6 +163,33 @@ NAVIGATION BAR
   align-items: center;
 }
 
+.menu__link {
+  position: relative;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  text-underline-offset: 200px;
+}
+
+.menu__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #000000;
+  transition: width 500ms ease;
+}
+
+.menu__link:hover {
+  text-decoration: none;
+}
+
+.menu__link:hover::after {
+  width: 100%;
+}
+
 .menu__list {
   padding: 40px 0;
 }
@@ -170,6 +197,10 @@ NAVIGATION BAR
 .btn__menu--close {
   position: absolute;
   color: #242424;
+  display: block;
+  top: 24px;
+  right: 32px;
+  cursor: pointer;
 }
 
 /* 

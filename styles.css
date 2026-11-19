@@ -121,30 +121,6 @@ NAVIGATION BAR
   color: #9288ec;
 }
 
-.menu__backdrop {
-  position: absolute;
-  background-color: #f0eff7;
-  inset: 0;
-  z-index: 200;
-  display: none;
-  justify-content: center;
-} 
-
-.menu__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.menu__list {
-padding: 20px 0;
-}
-
-.btn__menu--close {
-  position: absolute;
-
-}
-
 .logo {
   width: 44px;
   margin-right: px;
@@ -169,6 +145,31 @@ padding: 20px 0;
  font-weight: bold;
   font-size: 26px;
   padding: 0;
+}
+
+.menu__backdrop {
+  position: absolute;
+  background-color: white;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__list {
+  padding: 40px 0;
+}
+
+.btn__menu--close {
+  position: absolute;
+  color: #242424;
 }
 
 /* 
@@ -1987,19 +1988,6 @@ padding-top: 160px;
 JAVASCRIPT TRIPLE BAR
 
 */
-
-.nav__links {
-  display: none;
-}
-
-.btn__menu {
-  display: block;
-}
-
-.menu__backdrop--open {
-  display: flex;
-}
-
 
 }
 

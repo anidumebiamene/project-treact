@@ -123,10 +123,10 @@ NAVIGATION BAR
 
 .menu__backdrop {
   position: absolute;
-  background-color: #242424
-  inset 0;
+  background-color: #f0eff7;
+  inset: 0;
   z-index: 200;
-  display: flex;
+  display: none;
   justify-content: center;
 } 
 
@@ -136,13 +136,13 @@ NAVIGATION BAR
   align-items: center;
 }
 
-.menu__List {
-padding: 50px 0;
+.menu__list {
+padding: 20px 0;
 }
 
 .btn__menu--close {
   position: absolute;
-  
+
 }
 
 .logo {
@@ -1993,7 +1993,11 @@ JAVASCRIPT TRIPLE BAR
 }
 
 .btn__menu {
-  display: none;
+  display: block;
+}
+
+.menu__backdrop--open {
+  display: flex;
 }
 
 
